@@ -16,11 +16,14 @@ public class CwkService implements ActionListener {
 		JTextField time;
 		JLabel timeDisplay;
 		JFrame mainWindow;
-		
+
+
+
 		int hours;
 		int minutes;
 		int seconds;
 		//asd
+    //asd2
 		java.util.Timer timer;
 		java.util.Timer displayTime;
 
