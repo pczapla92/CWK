@@ -45,7 +45,7 @@ public class Cwk extends JFrame {
         bottom.add(stop);
         center.add(timeleft);
           
-        ActionListener actionListener = new Interface(this, start, stop, time, timeleft);
+        ActionListener actionListener = new CwkService(this, start, stop, time, timeleft);
         start.addActionListener(actionListener);
         stop.addActionListener(actionListener); 
         
